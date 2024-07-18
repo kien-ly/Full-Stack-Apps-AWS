@@ -12,8 +12,17 @@ You can clone this repo to run the project locally, or navigate to the workspace
 To complete this project, you will need to:
 
 * Set up node environment
+
+bash```
+npm i
+npm audit fix
+```
+
 * Create a new endpoint in the server.js file
+
+
 * Deploying your system
+Follow the process described in the course to `eb init` a new application and `eb create` a new environment to deploy your image-filter service! Don't forget you can use `eb deploy` to push changes.
 
 ## Testing
 
@@ -22,3 +31,6 @@ Successful URL responses should have a 200 code. Ensure that you include error c
 ## License
 
 [License](LICENSE.txt)
+
+
+http://app-filter-dev.us-east-1.elasticbeanstalk.com/
